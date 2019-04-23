@@ -1,12 +1,7 @@
 # GitHub Streaming Library
 > Class that streams batches of data from GitHub out to the caller
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Implementation of a class that streams batches of data from GitHub, more exactly it enables its user to get multiple types of data on multiple repositories owned by the same owner/organization using a single API.
-
 
 ## Usage example
 
@@ -25,9 +20,9 @@ In order to run this script requests and urllib.request modules are needed. Late
 
 ## Meta
 
-Manea Sebastian – [@linkedin](https://www.linkedin.com/in/sebastian-manea/) – YourEmail@example.com
+Manea Sebastian – [@sebastian-manea](https://www.linkedin.com/in/sebastian-manea/) – sebastianm9513@gmail.com
 
-[https://github.com/yourname/github-link](https://github.com/SebastianMm/)
+[https://github.com/SebastianMm](https://github.com/SebastianMm/)
 
 ## Purpose
 
