@@ -6,19 +6,16 @@ Implementation of a class that streams batches of data from GitHub, more exactly
 ## Usage example
 
 In the code it can be seen how can the functions in the class can be called.
-e.g. ```
+
+```python
 	gh = GitHub('moby', ['moby', 'buildkit'], ['issues','pulls'])
 	data = gh.read()
 	while data is not None:
      	for result in data:
         	print('url: {}\tlen(result): {}'.format(result['url'], len(result['result'])))
      	gh.getAvatar()
-     ```
-     ```python
-s = "Python syntax highlighting"
-print s
 ```
-
+     
 ## Development setup
 
 In order to run this script requests and urllib.request modules are needed. Later on, json will be added in the project.
