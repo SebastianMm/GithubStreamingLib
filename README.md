@@ -7,12 +7,14 @@ Implementation of a class that streams batches of data from GitHub, more exactly
 
 In the code it can be seen how can the functions in the class can be called.
 
-e.g. gh = GitHub('moby', ['moby', 'buildkit'], ['issues','pulls'])
-	 data = gh.read()
-	 while data is not None:
-     for result in data:
-        print('url: {}\tlen(result): {}'.format(result['url'], len(result['result'])))
-     gh.getAvatar()
+e.g. '''python
+	gh = GitHub('moby', ['moby', 'buildkit'], ['issues','pulls'])
+	data = gh.read()
+	while data is not None:
+     	for result in data:
+        	print('url: {}\tlen(result): {}'.format(result['url'], len(result['result'])))
+     	gh.getAvatar()
+     '''
 
 ## Development setup
 
