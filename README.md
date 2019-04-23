@@ -14,6 +14,10 @@ e.g. ```
         	print('url: {}\tlen(result): {}'.format(result['url'], len(result['result'])))
      	gh.getAvatar()
      ```
+     ```python
+s = "Python syntax highlighting"
+print s
+```
 
 ## Development setup
 
